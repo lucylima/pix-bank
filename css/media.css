@@ -1,0 +1,24 @@
+/* media pc */
+
+@media only screen and (min-width: 992px) {
+
+
+  
+}
+
+/* media tablet */
+@media only screen and (min-width: 550px) and (max-width:992px) {
+  .user {
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+  .card-balance {
+    width: 20rem;
+    margin-inline: auto;
+  }
+  .quick-actions, .transacoes, .nav-fundo {
+    margin-inline: auto;
+    width: 60%;
+  }
+  
+}
