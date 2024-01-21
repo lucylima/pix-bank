@@ -73,6 +73,7 @@ main {
 .action>p>a {
   color: var(--cor-primaria);
   text-decoration: none;
+  cursor: pointer;
 }
 
 .action button:active {
