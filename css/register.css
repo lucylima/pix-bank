@@ -5,8 +5,7 @@ body {padding: 0; margin: 0; font-family: 'Poppins', sans-serif; background-colo
   --cor-background: #15141C;
   --cor-primaria: #00FF76;
   --cor-secundaria: #3B3943;
-}
-
+} 
 .container {
     display: flex;
     flex-direction: column;
@@ -20,7 +19,9 @@ body {padding: 0; margin: 0; font-family: 'Poppins', sans-serif; background-colo
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 25rem;
+  justify-content: center;
+  width: 20rem;
+  padding: 1rem;
 }
 
 .card-register form {
@@ -29,7 +30,7 @@ body {padding: 0; margin: 0; font-family: 'Poppins', sans-serif; background-colo
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 1rem;
+
   h3 {
     font-size: 1.8rem;
     color: var(--cor-primaria);
@@ -73,7 +74,7 @@ body {padding: 0; margin: 0; font-family: 'Poppins', sans-serif; background-colo
     align-items: center;
     justify-content: center;
     border: none;
-    width: 20rem;
+    width: 18rem;
     padding: 0.8rem 0.5rem;
     background-color: var(--cor-primaria);
     color: var(--cor-background);
@@ -81,6 +82,11 @@ body {padding: 0; margin: 0; font-family: 'Poppins', sans-serif; background-colo
     border-radius: 20px;
     font-weight: bold;
     font-size: 17px;
+  }
+  button:active {
+    background-color: #15141C;
+    color: var(--cor-primaria);
+    outline: 4px solid var(--cor-primaria);
   }
 }
 
