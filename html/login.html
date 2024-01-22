@@ -4,20 +4,32 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/welcome.css">
+  <link rel="stylesheet" href="../css/login.css">
   <title>Login</title>
 </head>
 <body>
   <main>
     <div class="container">
-      <img src="assets/Credit card-bro.svg" alt="">
-      <div class="action">
-        <h1>O melhor banco para transerir e receber dinheiro</h1>
-        <button onclick="registrar()">Criar uma conta</button>
-        <p>Já tem uma conta? <a onclick="login()">Login</a></p>
+      <div class="card-login">
+        <form action="">
+          <h3>Login</h3>
+          <div class="fieldgroup">
+            <div class="fieldset">
+              <label for="email">Email</label>
+              <input type="email" name="" id="" placeholder="seu@email.com">
+            </div>
+            <div class="fieldset">
+              <label for="senha">Senha</label>
+              <input type="password" name="" id="" placeholder="Senha">
+            </div>
+            <div class="button-entrar">
+              <button>Entrar</button>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
   </main>
-  <script src="js/login.js"></script>
+  <script src="../js/login.js" defer></script>
 </body>
 </html>
