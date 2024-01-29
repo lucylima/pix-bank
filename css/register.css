@@ -21,7 +21,7 @@ body {padding: 0; margin: 0; font-family: 'Poppins', sans-serif; background-colo
   align-items: center;
   justify-content: center;
   width: 20rem;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .card-register form {
@@ -34,7 +34,7 @@ body {padding: 0; margin: 0; font-family: 'Poppins', sans-serif; background-colo
   h3 {
     font-size: 1.8rem;
     color: var(--cor-primaria);
-    margin: 1rem 0rem;
+    margin: 0.5rem 0rem;
   }
   .fieldgroup{
     width: 100%;

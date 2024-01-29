@@ -22,14 +22,16 @@ body {padding: 0; margin: 0; font-family: 'Poppins', sans-serif; background-colo
     justify-content: center;
     flex-direction: column;
     box-shadow: 0px 0px 5px rgb(49, 49, 49);
-    height: 60%;
     border-radius: 20px;
     padding: 1.5rem;
-    gap: 1rem;
     h3 {
         color: var(--cor-primaria);
         text-align: center;
         font-size: 1.8rem;
+    }
+    p {
+        margin-top: 1rem;
+        font-size: 90%;
     }
     p > a {
       cursor: pointer;
