@@ -13,18 +13,13 @@
       <img src="assets/Credit card-bro.svg" alt="">
       <div class="action">
         <h1>O melhor banco para transerir e receber dinheiro</h1>
-        <button onclick="redirecionar(0)">Criar uma conta</button>
-        <p>Já tem uma conta? <a onclick="redirecionar(1)">Login</a></p>
+        <a onclick="redirecionar(0)" href="html/register.html">Criar uma conta</a>
+        <p>Já tem uma conta? <a onclick="redirecionar(1)" href="html/login.html">Login</a></p>
       </div>
     </div>
   </main>
-    
-  <script src="./js/dashboard.js"></script>
-  <script>
-    let caminhoHtml = ['html/register.html', 'html/login.html','../html/register.html', '../html/login.html'];
-    function redirecionar(n){
-    window.location.href = caminhoHtml[n];
-    }
-  </script>
+  
+  <script src="js/dashboard.js"></script>
+  <script src="js/redirect.js"></script>
 </body>
 </html>
