@@ -20,6 +20,11 @@
   </main>
     
   <script src="./js/dashboard.js"></script>
-  <script src="../js/redirect.js"></script>
+  <script>
+    let caminhoHtml = ['html/register.html', 'html/login.html','../html/register.html', '../html/login.html'];
+    function redirecionar(n){
+    window.location.href = caminhoHtml[n];
+    }
+  </script>
 </body>
 </html>
